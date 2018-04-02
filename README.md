@@ -3,4 +3,4 @@
 > A Vue.js project
 
 ## test
-![test](./assets/test.gif)
+![test](./src/assets/test.gif)

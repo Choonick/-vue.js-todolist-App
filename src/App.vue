@@ -6,7 +6,20 @@
   </div>
 </template>
 
-<script>
+<script type="text/javascript">
+
+// if (process.env.NODE_ENV === 'production') {
+//   const OfflinePluginRuntime = require('offline-plugin/runtime'); // eslint-disable-line global-require
+//   OfflinePluginRuntime.install({
+//     // Tells to new SW to take control immediately
+//     onUpdateReady: () => OfflinePluginRuntime.applyUpdate(),
+//     // Tells the UpdateLink component to reload into the new version
+//     onUpdated: () => {
+//       window.swUpdate = true;
+//     },
+//   });
+// }
+
 import TodoList from './components/TodoList.vue'
 
 export default {

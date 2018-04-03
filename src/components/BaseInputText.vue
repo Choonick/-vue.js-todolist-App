@@ -2,7 +2,7 @@
   <input type="text" class="input" :value="value" v-on="listeners">
 </template>
 
-<script>
+<script type="text/javascript">
 export default {
   props: {
     value: {
@@ -11,14 +11,14 @@ export default {
     }
   },
   computed: {
-    listeners() {
+    listeners () {
       return {
         ...this.$listeners,
-        input: $event => this.$emit("input", event.target.value)
-      };
+        input: $event => this.$emit('input', event.target.value)
+      }
     }
   }
-};
+}
 </script>
 
 <style scoped>
@@ -28,5 +28,4 @@ export default {
         border: 1px solid black;
     }
 </style>
-
 

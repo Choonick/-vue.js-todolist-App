@@ -16,7 +16,7 @@
     </div>
 </template>
 
-<script>
+<script type="text/javascript">
 import BaseInputText from "./BaseInputText.vue";
 import TodoListItem from "./TodoListItem.vue";
 

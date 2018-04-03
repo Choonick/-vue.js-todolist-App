@@ -7,7 +7,7 @@
   </p>
 </template>
 
-<script>
+<script type="text/javascript">
 export default {
   props: {
       todo: {

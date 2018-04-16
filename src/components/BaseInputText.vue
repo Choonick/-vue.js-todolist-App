@@ -21,11 +21,3 @@ export default {
 }
 </script>
 
-<style scoped>
-    .input {
-        width: 30%;
-        padding: 8px 10px;
-        border: 1px solid black;
-    }
-</style>
-

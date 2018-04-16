@@ -31,25 +31,11 @@ export default {
   data() {
     return {
       newTodoText: '',
-        todos: [
-                {
-                    id: nextTodoId++,
-                    text: 'qqq'
-                },
-                {
-                    id: nextTodoId++,
-                    text: "www"
-                },
-                {
-                    id: nextTodoId++,
-                    text: "zxc"
-                }
-        ]
+        todos: []
     }
   },
   methods: {
     addTodo() {
-    
       const trimmedText = this.newTodoText.trim();
       console.log(this.newTodoText);
       if (trimmedText) {
